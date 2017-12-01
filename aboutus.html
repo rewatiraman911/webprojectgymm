@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    background-image: url('New Folder/gym1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+
+<title>Monster Fitness</title>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Monster Fitness</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="ContactUS_1.html">Contact Us</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>About Us:</h1>
+  <p>Our mission is to provide an Entertaining, Educational, Friendly and Inviting, Functional and Innovative experience of uncompromising quality that meets the health and fitness needs of the entire family.</p>
+  <p>Monster Fitness is a health club company with facilities for sports, professional fitness, family recreation and spa. Under the Life Time Fitness® and Life Time Athletic® brands the company operates 112 centers in the United States and Canada, most of which operate 24 hours a day, seven days a week.</p>
+  <p> Monster Fitness we believe everyone should have the opportunity to enjoy a fit and healthy lifestyle. So we have made it simple, affordable & convenient for everyone to achieve their personal health goals. Whether you're a beginner or a pro, young or old, we're here for everybody.</p>
+  
+</article>
+
+<footer>Copyright &copy; MonsterFitness.com</footer>
+</div>
+
+</body>
+</html>

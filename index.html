@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+/*<link rel="stylesheet" type="text/css" href="index_1.css">*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    background-image: url('New Folder/gym1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.article h1 {
+    font-family: "Georgia";
+}
+.article p {
+  font-size: 20px; 
+  font-color:  #e6e6ff;
+
+
+}
+
+header {background: #4080bf;color:white;}
+footer {background:  #4080bf;color:white;}
+.nav {background:#2f68c4;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+
+<title>Monster Fitness</title>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Monster Fitness</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="ContactUS_1">Contact Us</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>Our Mission</h1>
+ <p>Our mission is to provide an Entertaining, Educational, Friendly and Inviting, Functional and Innovative experience of uncompromising quality that meets the health and fitness needs of the entire family.</p>
+  <p>Monster Fitness is a health club company with facilities for sports, professional fitness, family recreation and spa. Under the Life Time Fitness® and Life Time Athletic® brands the company operates 12 centers in India, most of which operate 24 hours a day, seven days a week.</p>
+  <p>They are what we stand for, our philosophies and reason for being. They are our guiding pillars for decision-making or if we need a point in the right direction. </p>
+  <p>Live by the golden rule.  
+     To live by the golden rule means to treat others how you like to be treated. </p>
+  <p>Keep things simple.  
+
+At the end of the day everything in our business should be as simple as possible. </p>
+  <p>Listen. Learn. Improve. Repeat.  
+
+We must constantly listen to our members, learn how we can do things better and then make those improvements. It’s a never-ending process.</p>
+  <p>Wow the member.  
+
+Whatever mood a member walks into the gym with, ‘wowing the member’ is about spotting opportunities, whenever we can, so that they leave in a better one.  </p>
+<p>Make a difference in the world.
+
+Be a positive influence within your community, region, state, country or world by finding ways to make a difference in the lives of those we come into contact with.</p>
+<p>We're all in this together. 
+
+Delivering the best possible experience to our members requires every part of our business to work together as one team - from our partners, to our owners, to our support office and club managers .</p>
+<p>Be Ninja.
+
+Many people talk the talk but fail to walk the walk. To be Ninja means living every day through the spirit of Ninja, to display traits of discipline, inspiration, integrity and passion in every action.</p>
+</article>
+
+<footer>Copyright &copy; MonsterFitness.com</footer>
+</div>
+
+</body>
+</html>
